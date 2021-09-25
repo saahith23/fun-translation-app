@@ -9,3 +9,9 @@ function getTranslationURL(text){
     console.log(url);
     return url
 }
+
+function errorHandler(error){
+    console.log("error occured", error);
+    alert("something wrong try again later");
+ }
+ 
