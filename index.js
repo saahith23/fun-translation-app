@@ -15,3 +15,9 @@ function errorHandler(error){
     alert("something wrong try again later");
  }
  
+ 
+ function clickHandler(){
+ 
+    var inputText =txtInput.value;
+ 
+   
