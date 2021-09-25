@@ -20,6 +20,14 @@ function errorHandler(error){
  
     var inputText =txtInput.value;
  
-    
+    fetch(getTranslationURL(inputText))
+    .then(response => response.json())
+    .then(json =>{
+        var translatedText =json.contents.translated;
+        outputBox.innerText = translatedText;
+    })
+    .catch(errorHandler)
+ };
+ btnTranslate.addEventListener('click', clickHandler)
  };
  btnTranslate.addEventListener('click', clickHandler)
