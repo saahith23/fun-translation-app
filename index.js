@@ -20,4 +20,6 @@ function errorHandler(error){
  
     var inputText =txtInput.value;
  
-   
+    
+ };
+ btnTranslate.addEventListener('click', clickHandler)
