@@ -9,12 +9,19 @@
 .footer{
     padding: 5rem 5rem;
     background-color: #80d4ff;
+    font-size: large;
 }
 .button{
-    padding: 1rem 2rem;
+    
     background-color: #80d4ff;
     margin:1rem 0rem;
     font-size: large;
     border: none;
     
+}
+.textarea{
+    margin-left: 30%;
+}
+.output{
+    margin-left: 50%;
 }
