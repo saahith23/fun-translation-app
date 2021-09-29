@@ -1,5 +1,5 @@
 .body{
-    
+   
     text-align: center;
 }
 .heading{
@@ -18,10 +18,4 @@
     font-size: large;
     border: none;
     
-}
-.textarea{
-    margin: 30%;
-}
-.output{
-    margin: 50%;
 }
