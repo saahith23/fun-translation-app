@@ -11,6 +11,10 @@
     background-color: #80d4ff;
 }
 .button{
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
+    background-color: #80d4ff;
+    margin:1rem 0rem;
+    font-size: large;
+    border: none;
     
 }
