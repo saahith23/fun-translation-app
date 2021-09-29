@@ -1,4 +1,16 @@
 .body{
-    margin-left: 30%;
     
+    text-align: center;
+}
+.heading{
+    padding: 2rem 2rem;
+    background-color: #49a0eb;
+}
+.footer{
+    padding: 5rem 5rem;
+    background-color: #49a0eb;
+}
+.button{
+    padding: 2rem 2rem;
+    background-color: #49a0eb;
 }
