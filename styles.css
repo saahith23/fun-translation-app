@@ -1,21 +1,24 @@
-.body{
-   
+body{
+  
+    justify-content: center;
+    background-color: azure;
     text-align: center;
 }
 .heading{
     padding: 2rem 2rem;
-    background-color: #80d4ff;
+    background-color: aqua;
 }
 .footer{
     padding: 5rem 5rem;
-    background-color: #80d4ff;
+    background-color: aqua;
     font-size: large;
 }
-.button{
-    
-    background-color: #80d4ff;
-    margin:1rem 0rem;
+#button{
+    padding:0.5rem 1.5rem;
+    background-color: aqua;
+    margin-bottom:1.5rem;
     font-size: large;
-    border: none;
+   
+    border-radius: 1rem;
     
 }
